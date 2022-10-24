@@ -1,0 +1,7 @@
+{ "software":{
+      Name:"PSv458"
+      Run:TRUE      
+}
+"Auth":{
+     Authenticate.io:"auth.io/Authenticator.jason
+}
