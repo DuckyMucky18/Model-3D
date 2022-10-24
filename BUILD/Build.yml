@@ -1,4 +1,12 @@
 name:pybuild
   metadata:
      creationTimestamp:null
+     Timestampstop:null
      Kind: Deployment 
+build: android
+type:x64
+Forge:{
+   python3.8
+   conda
+   anaconda
+   
