@@ -1,12 +1,16 @@
-name:pybuild
+name:packages_build
   metadata:
      creationTimestamp:null
      Timestampstop:null
      Kind: Deployment 
 build: android
 type:x64
-Forge:{
+forge_build:{
    python3.8
    conda
    anaconda
+   numpy
+   seispy
+}
+
    
