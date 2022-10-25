@@ -1,13 +1,12 @@
 name: 
   metadata:
-     creationTimestamp:null
-     Timestampstop:null
      Kind: Deployment 
-build: linux, android, windows
-type:x64
-forge:
-   python3.8
-   numpy
+     build: linux, android, windows
+     forge:
+       python3.8
+       numpy
+       
+
 workflows: python_app.yml python.yml
 unused_workflows:null
     - uses:
