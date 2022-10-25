@@ -5,5 +5,5 @@ if exist(Assets):
 else:
    Assets = false
 
-Convert3DDIR = "Assets_pack.3D
-Unconvert = "asset_pack/"
+Convert3DDIR = "Assets_pack.3D"
+Unconvert = "asset_pack/Assets_pack.3D"
