@@ -10,3 +10,7 @@ name:
 workflows: python_app.yml python.yml
 unused_workflows:null
 
+install:
+  - mtd install --loglevel silent --progress=false
+script:
+  - mtd start
