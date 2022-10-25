@@ -1,16 +1,13 @@
-name:packages_build
+name: 
   metadata:
      creationTimestamp:null
      Timestampstop:null
      Kind: Deployment 
-build: android
+build: linux, android, windows
 type:x64
-forge_build:{
+forge:
    python3.8
-   conda
-   anaconda
    numpy
-   seispy
-}
-
-   
+workflows: python_app.yml python.yml
+unused_workflows:null
+    - uses:
